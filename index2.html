@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/asset/style/style.css" />
+    <script defer src="/asset/script3.js"></script>
+    <title>Carte Mystère</title>
+  </head>
+  <body>
+    <h1>🃏✨ Cartes Mystères - Crée ta collection magique</h1>
+
+    <form id="collection">
+      <div class="form">
+        <label for="nameCarte">Nom de la carte:</label>
+        <input type="text" id="nameCarte" name="nameCarte" required />
+
+        <label for="type">Type:</label>
+        <select id="type" name="type" required>
+          <option value="">Sélectionnez un type</option>
+          <option value="Feu 🔥">Feu 🔥</option>
+          <option value="Eau 💧">Eau 💧</option>
+          <option value="Terre 🌱">Terre 🌱</option>
+          <option value="Air 🌪️">Air 🌪️</option>
+          <option value="Magie ✨">Magie ✨</option>
+        </select>
+
+        <label for="pouvoir">Pouvoir spécial</label>
+        <input type="text" id="pouvoir" name="pouvoir" required />
+
+        <div class="buttons">
+          <button type="submit" class="button">Ajouter à la collection</button>
+        </div>
+      </div>
+    </form>
+
+    <div class="collection-card"></div>
+  </body>
+</html>
