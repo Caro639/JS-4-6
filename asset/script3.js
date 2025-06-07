@@ -43,20 +43,6 @@ collectionForm.addEventListener("submit", function (event) {
   localStorage.setItem("mysteryCartArray", JSON.stringify(mysteryCartArray));
 
   console.log(mysteryCartArray);
-
-  // create html element
-  // collectionCard.insertAdjacentHTML(
-  //   "beforeend",
-  //   `<h2 class="carte">${mysteryCart.nameCarte}</h2>`
-  // );
-  // collectionCard.insertAdjacentHTML(
-  //   "beforeend",
-  //   `<p class="paragraphe">${mysteryCart.type}</p>`
-  // );
-  // collectionCard.insertAdjacentHTML(
-  //   "beforeend",
-  //   `<p class="pouvoir">${mysteryCart.pouvoir}</p>`
-  // );
 });
 
 let mysteryCartFromStorage = localStorage.getItem("mysteryCart");
