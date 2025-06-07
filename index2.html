@@ -18,22 +18,26 @@
         <label for="type">Type:</label>
         <select id="type" name="type" required>
           <option value="">Sélectionnez un type</option>
-          <option value="Feu 🔥">Feu 🔥</option>
-          <option value="Eau 💧">Eau 💧</option>
-          <option value="Terre 🌱">Terre 🌱</option>
-          <option value="Air 🌪️">Air 🌪️</option>
-          <option value="Magie ✨">Magie ✨</option>
+          <option value="🔥">Feu 🔥</option>
+          <option value="💧">Eau 💧</option>
+          <option value="🌱">Terre 🌱</option>
+          <option value="🌪️">Air 🌪️</option>
+          <option value="✨">Magie ✨</option>
         </select>
 
         <label for="pouvoir">Pouvoir spécial</label>
         <input type="text" id="pouvoir" name="pouvoir" required />
 
         <div class="buttons">
-          <button type="submit" class="button">Ajouter à la collection</button>
+          <button type="submit" class="addCarte">
+            Ajouter à la collection
+          </button>
         </div>
       </div>
     </form>
 
-    <div class="collection-card"></div>
+    <div class="line-card">
+      <div class="collection-card"></div>
+    </div>
   </body>
 </html>
